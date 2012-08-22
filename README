@@ -1,0 +1,14 @@
+                          squashfs-portage
+            <https://github.com/Neuvoo/squashfs-portage>
+
+Squashfs-portage adds the capability to have squashfs-based portage tree.  This
+is intended mostly for embedded devices and machines with low data capacity,
+limited writing capability, limited internet connectivity, and/or filesystems
+with low inode count. This software is primarily intended for the Neuvoo project
+but provided as a eventual drop-in replacement to Gentoo rsync for updating the
+portage tree.
+
+22/08/2012 - At this time you must use a patched version of portage found at the
+Neuvoo overlay to utilize this function with a Gentoo-based system.  The patches
+have been send to Gentoo devs for eventual inclusion to standard portage.
+<https://github.com/Neuvoo/overlay>
